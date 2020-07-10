@@ -8,7 +8,7 @@ Additional description about the project and its features.
 
 Built With : Html,CSS and github 
 technologies used:flex-box   and grid of CSS
-Live Demo Link: https://rawcdn.githack.com/BrianSammit/Youtube-page/7fecd92ae9381d224dadbcc991ecc92be7a41059/index.html 
+Live Demo Link:https://rawcdn.githack.com/Fanger53/youtube-clone/15166c23ce2f8ce3650d8485647b1725db8279f3/index.html
 
 Getting Started
 
