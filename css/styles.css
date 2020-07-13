@@ -162,6 +162,21 @@ h1 {
   cursor: pointer;
 }
 
+#share-button {
+  width: 106px;
+  height: 36px;
+  border-radius: 2%;
+  cursor: pointer;
+  font-size: 13PX;
+  color: hsl(0, 0%, 50%);
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .info-p1 {
   font-size: 15px;
   color: hsl(0, 0%, 5%);
