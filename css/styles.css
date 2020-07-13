@@ -102,8 +102,9 @@ header{
 }
 
 .video-info {
+  background: white;
   width: 723px;
-  height: 65px;
+  height: auto;
   padding: 20px 0px 8px;
   border-width: 0px 0px 1px;
 
@@ -119,6 +120,24 @@ h1 {
   font-size: 18px;
   line-height: 24px;
   display: inline;
+}
+
+#info-2 {
+  margin-top: 10px;
+  width: 723px;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: left;
+
+}
+
+#info-p-sub {
+  height: auto;
+  margin-left: 450px;
+  display: flex;
+  align-items: flex-end;
 }
 
 #info-1 {
@@ -140,7 +159,7 @@ h1 {
 }
 
 #top-buttons {
- width: 370px;
+ width: 250px;
  height: 40px;
  left: 125px;
  font-size: 20px;
@@ -151,6 +170,21 @@ h1 {
 
  justify-content: space-between;
  align-items: center;
+}
+
+#left-buttons {
+ width: 120px;
+ height: 40px;
+ left: 125px;
+ font-size: 20px;
+ 
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+
+ justify-content: space-between;
+ align-items: center;
+
 }
 
 .info-p{
@@ -190,18 +224,10 @@ h1 {
 }
 
 #chanel-info {
+  background: white;
+  margin-top: 10px;
   width: 727px;
-  height: 168px;
-}
-
-#top-container-chanel-info {
-  width: auto;
-  height: 67px;
-
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: flex-end;
+  height: auto;
 }
 
 #video-owner {
@@ -270,6 +296,12 @@ h4{
   text-decoration-style: none;
   cursor: pointer;
   margin-top: 30px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 span {
