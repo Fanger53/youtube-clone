@@ -78,7 +78,9 @@ header{
 .container {
   width: auto;
   height: auto;
+  margin-top: 56px;
   font-size: 10px;
+  background: rgb(248, 248, 248);
 
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,12 +216,13 @@ h1 {
 
 #img-owner {
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 #inf-owner {
   width: 542px;
   height: 51px;
-  background: white;
+  background: transparent;
 }
 
 #subscribe-button {
@@ -255,14 +258,18 @@ h4{
   width: 615px;
   height: 101px;
   position: relative;
-  left: 48px;
+  left: 60px;
 }
-h2 {
-  color: hsl(0, 0%, 5%);
-  font-size: 14px;
-  line-height: 21px;
-  cursor: pointer;
 
+.info-show-more {
+  font-size: 13px;
+  color: gray;
+  line-height: 21px;
+  letter-spacing: 0.007px;  
+  font-weight: 500;
+  text-decoration-style: none;
+  cursor: pointer;
+  margin-top: 30px;
 }
 
 span {
@@ -275,6 +282,7 @@ span {
 #commments-seccion-principal {
   width: auto;
   height: 300px;
+  margin-top: 30px;
   
 }
 
@@ -306,11 +314,13 @@ span {
   border-radius: 50%;
   position: relative;
   top: 30px;
+  margin-right: 10px;
 }
 
 #commets-bar {
   border-style: none;
   width: 676px;
+  background-color: transparent;
 }
 
 #box-comment {
@@ -367,6 +377,7 @@ span {
 #users-comments {
   width: auto;
   height: 156px;
+  margin: 20px;
 
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,6 +400,17 @@ span {
   
 }
 
+#like-section {
+  width: 150px;
+  margin-top: 15px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #header-user-comments {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -404,6 +426,7 @@ h5{
 }
 
 #comments-p{
+  margin-top: 10px;
   font-size: 14px;
   color: hsl(0, 0%, 5%);
 }
@@ -428,6 +451,7 @@ h5{
 }
 
 #info-view-10 {
+  margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -438,6 +462,14 @@ h5{
   width: 426px;
   height: 1000px;
   background: transparent;
+}
+
+h2 {
+  color: hsl(0, 0%, 5%);
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+
 }
 
 .vid-recommended{
@@ -499,6 +531,7 @@ h5{
 }
 
 .text-vid-t {
+  margin-bottom: 10px;
   text-transform:uppercase;
   text-align: left;
   font-size: 1.8em;
@@ -569,6 +602,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 .bottom-recommended{
+  margin: 20px 0px 10px 0px;
   display:flex;
   justify-content: space-around;
 }
