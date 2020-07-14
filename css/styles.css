@@ -696,5 +696,6 @@ input:checked + .slider:before {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9em;
+  color: black;
 }
 
