@@ -77,11 +77,13 @@ header{
 }
 
 .container {
+  
   width: auto;
   height: auto;
   margin-top: 56px;
   font-size: 10px;
   background: rgb(248, 248, 248);
+  
 
   display: -webkit-box;
   display: -ms-flexbox;
