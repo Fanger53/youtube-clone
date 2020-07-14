@@ -3,12 +3,7 @@
   padding: 0;
 }
 
-nav {
-  width: auto;
-  height: 56px;
-}
-
-header{
+nav{
   width: 100vw;
   height: 56px;
   position: fixed;
@@ -640,3 +635,66 @@ input:checked + .slider:before {
   display:flex;
   justify-content: space-around;
 }
+
+/* footer */
+.footer{
+  width: 100vw;
+  height:150px;
+  margin: 25px;
+}
+.footer-top{
+  width: auto;
+  height: 50px;
+  display:grid;
+  grid-template-columns: 20% 80%;
+  border-bottom: 2px solid gray;
+  padding: 15px;
+}
+
+.footer-img{
+  background-image: url(https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+}
+.footer-b{
+  width: 160px;
+  height: 30px;
+  border : 2px solid rgb(165, 165, 165);
+  margin-top: 10px;
+  margin-left: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+.footer-b-s{
+  width: 100px;
+  height: 30px;
+  border : 2px solid rgb(165, 165, 165);
+  margin-top: 10px;
+  margin-left: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+.footer-bottom{
+  margin: 20px;
+}
+.footer-ls{
+  display: inline;
+  list-style: none;
+  margin-left: 50px;
+}
+.footer-bottom-div{
+  margin: 10px;
+}
+.footer-ls li{
+  display: inline;
+  margin: 10px;
+  
+}
+.footer-ls li a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+
