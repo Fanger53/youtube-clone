@@ -2,30 +2,26 @@
 This project consists of building an HTML and CSS document that matches the appearance of the youtube video player webpage.
 the main objective of this project is to get the knowledge of how positioned the elements for web pages in this case a version youtube page.
 
+![screenshot](./screenshot.png)
 
+## Built With
 
-Additional description about the project and its features.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),
+- [CSS](https://www.w3schools.com/css/),
+- [Fontawesome](https://fontawesome.com/),
+- [GitHub](https://github.com/),
 
-Built With : Html,CSS and github 
-technologies used:flex-box   and grid of CSS
-Live Demo Link:https://rawcdn.githack.com/Fanger53/youtube-clone/ed85b30ced21582d0d6b30b6c64414bec004b44e/index.html
+## Live Demo
 
-Getting Started
+[Live Demo Link](https://rawcdn.githack.com/Fanger53/youtube-clone/ed85b30ced21582d0d6b30b6c64414bec004b44e/index.html)
 
-To get a local copy up and running follow these simple example steps.
+## Authors
 
-Prerequisites: editor text, Html, CSS, github 
-Setup
-Usage
-Deployment
+👤 Brian Sammit Cruz Rodriguez
 
-Authors
+Github: @BrianSammit https://github.com/BrianSammit
 
-👤 Author1
-
-Github: @BrianSammit
-
-Twitter:@CruzSammit
+Twitter: @CruzSammit https://twitter.com/CruzSammit
 
 Linkedin: https://www.linkedin.com/in/brian-sammit-cruz-rodriguez-5877551a8/
 
@@ -37,17 +33,23 @@ Twitter: @DavidLe97005129
 
 Linkedin: https://www.linkedin.com/in/david-castillo-61ba10b8/
 
-🤝 Contributing
+## 🤝 Contributing
+
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the issues page.
+## Show your support
 
-Show your support
-⭐️ 
+Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-📝 License
-This project is MIT licensed.
+## Acknowledgments
+
+- Microverse
+- W3schools
+- Freecodecamp
+- Developer.mozilla
+- Learnshayhowe
+- Odin project
+
+## 📝 License
+
+NO license: This project is free for anyone to use.
